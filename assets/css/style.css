@@ -1,0 +1,55 @@
+@font-face {
+    font-family: dos;
+    src: url(../font/dos.ttf);
+}
+
+pre{
+    display: block;
+    font-family: "dos";
+    padding: 0px;
+    margin: 0 0 0px;
+    font-size: 14px;
+    line-height: 1;
+    color: green;
+    word-break: normal;
+    word-wrap: normal;
+    background-color: black;
+    border: none;
+    border-radius: none;
+    white-space: pre;
+
+}
+
+body {
+	font-family: "dos";
+/*	text-align: center;*/
+	background-color: black;
+	color: green;
+}
+.button{
+    font-family: "dos";
+    background-color: black;
+    color: green;
+}
+
+/*.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}*/
