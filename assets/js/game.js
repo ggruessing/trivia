@@ -58,7 +58,7 @@ var all = function(){
 			if(counter >= quiz.length){
 
 				clearInterval(countDown)
-				
+
 				for (var i = 0; i < quiz.length; i++) {
 					if (quiz[i][4]===answers[i]){
 					score++
@@ -80,7 +80,7 @@ var all = function(){
 			
 			noTime= false
 			
-			time=10
+			time=30
 			
 			$('button').on('click', function() {
     			game()
@@ -137,7 +137,7 @@ var all = function(){
 
 			$(".quiz").html('Question: ' + quiz[counter][0]+'<br><br>'+quiz[counter][1]+'    <button class="button" id="buttonA" display=none>A</button><br><br>'+quiz[counter][2]+'    <button class="button" id="buttonB">B</button><br><br>'+quiz[counter][3]+'    <button class="button" id="buttonC">C</button><br><br>Time Left:')
 			counter++
-			time=10
+			time=30
 
     		$('button').on('click', function() {
 
